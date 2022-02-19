@@ -3,7 +3,8 @@
 import TiposBasicos from "./typescript/TiposBasicos"; */
 /* import Sumador from "./components/Sumador"; */
 /* import ContadorConHook from "./components/ContadorConHook"; */
-import Login from "./components/Login";
+
+import Usuarios from './components/Usuarios';
 
 
 const App = () => {
@@ -11,7 +12,8 @@ const App = () => {
     <div className='mt-2s'>
       <h1>Introduccion TS-React: </h1>
       <hr />
-      <Login />
+      <Usuarios />
+
       {/*   <TiposBasicos /> */}
       {/*   <ObjetosLiterales /> */}
       {/*   <Funciones /> */}
